@@ -1,0 +1,129 @@
+baseURL: "https://kazumarks.github.io"
+languageCode: en-au
+title: kazumarks
+copyright: © kazumarks
+paginate: 5
+theme: ["PaperMod"]
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+params:
+  env: production
+  title: kazumarks
+  description: "kazu’s website"
+  DateFormat: "2006-01-02"
+  defaultTheme: light
+  disableThemeToggle: false
+  mainsections: ["posts", "papermod"]
+
+  ShowReadingTime: false
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: false  
+  ShowRssButtonInSectionTermList: true
+  ShowAllPagesInArchive: true
+  UseHugoToc: true
+  disableSpecial1stPost: true
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  assets:
+    favicon: "favicon.ico"
+    favicon16x16: "favicon-16x16.png"
+    favicon32x32: "favicon-32x32.png"
+    favicon48x48: "favicon-48x48.png"
+    apple_touch_icon: "apple-touch-icon.png"
+    safari_pinned_tab: "apple-touch-icon.png"
+    
+  label:
+    text: "kazumarks"
+    icon: /apple-touch-icon.png
+    iconHeight: 35
+
+   # profile-mode
+  profileMode:
+    enabled: false # needs to be explicitly set
+    title: kazumarks
+    subtitle: "Some person"
+    imageUrl: "profile.webp"
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: my image
+    buttons:
+      - name: Posts
+        url: posts
+      - name: Tags
+        url: tags
+    
+  # home-info mode
+  homeInfoParams:
+    Title: "Hello there!"
+    Content: >  
+      My name is kazumarks (kazu for short) and I tinker with Pokémon, other games and Linux.
+      I also like lurking in many internet forums about a variety of subjects like privacy, security, and urbanism.
+      Also I am not an amazing writer so some articles may look like slop.
+   
+  socialIcons:
+    - name: mastodon
+      url: "https://donphan.social/@kazumarks"
+    - name: lemmy
+      url: "https://reddthat.com/u/kazumarks"
+    - name: github
+      url: "https://github.com/kazumarks"
+    - name: youtube
+      url: "https://youtube.com/@kazumarks"
+
+  cover:
+    hidden: true
+    hiddenInList: true
+    hiddenInSingle: true
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    keys: ["title", "permalink", "summary", "content"]
+
+menu:
+   main:
+    - identifier: posts
+      name: Posts
+      url: /posts/
+    - identifier: tags
+      name: Tags
+      url: /tags/
+
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    # lineNos: true
+    # style: monokai

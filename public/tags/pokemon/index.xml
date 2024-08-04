@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Pokemon on kazumarks</title>
+    <link>http://localhost:1313/tags/pokemon/</link>
+    <description>Recent content in Pokemon on kazumarks</description>
+    <generator>Hugo -- 0.131.0</generator>
+    <language>en-au</language>
+    <copyright>kazumarks</copyright>
+    <lastBuildDate>Sun, 04 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/pokemon/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Creating AppImages for PokeFinder and PokeGlitzer</title>
+      <link>http://localhost:1313/posts/pokefinder-and-pokeglitzer-appimages/</link>
+      <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/pokefinder-and-pokeglitzer-appimages/</guid>
+      <description>This stuff is simply documenting my experience in trying to create AppImages for the aforementioned applications
+Background I have been running a set up based around Fedora Atomic Desktops for a while now. These operating systems use OS images as the main method of delivering updates and expect a container-based workflow. I also like to play around with Pokémon, particularly the technical side of it such as pseudorandom number generation (PRNG) manipulation and glitching around (particularly in Generation III).</description>
+    </item>
+  </channel>
+</rss>
