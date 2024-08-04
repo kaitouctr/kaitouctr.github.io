@@ -2,7 +2,7 @@
 title: "Creating AppImages for PokeFinder and PokeGlitzer"
 date: 2024-08-04
 tags: ["pokemon", "linux"]
-draft: True
+draft: false
 ---
 
 **This stuff is simply documenting my experience in trying to create AppImages for the aforementioned applications**
