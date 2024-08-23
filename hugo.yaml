@@ -86,8 +86,8 @@ params:
   socialIcons:
     - name: mastodon
       url: "https://donphan.social/@kazumarks"
-    - name: lemmy
-      url: "https://reddthat.com/u/kazumarks"
+    - name: bluesky
+      url: "https://bsky.app/profile/clackerthien.bsky.social"
     - name: github
       url: "https://github.com/kazumarks"
     - name: youtube
