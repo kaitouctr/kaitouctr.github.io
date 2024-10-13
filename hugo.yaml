@@ -1,7 +1,7 @@
-baseURL: "https://kazumarks.pages.dev/"
+baseURL: "https://kaitouctr.github.io/"
 languageCode: en-au
-title: kazumarks
-copyright: © kazumarks
+title: kaitou’s space
+copyright: © Luong Nguyen Truong (kaitou)
 paginate: 5
 theme: ["PaperMod"]
 
@@ -24,8 +24,8 @@ outputs:
 
 params:
   env: production
-  title: kazumarks
-  description: "kazu’s website"
+  title: kaitou's space
+  description: "a place where I may say some stuff"
   DateFormat: "2006-01-02"
   defaultTheme: light
   disableThemeToggle: false
@@ -63,7 +63,7 @@ params:
    # profile-mode
   profileMode:
     enabled: false # needs to be explicitly set
-    title: kazumarks
+    title: kaitou
     subtitle: "Some person"
     imageUrl: "profile.webp"
     imageWidth: 120
@@ -79,19 +79,17 @@ params:
   homeInfoParams:
     Title: "Hello there!"
     Content: >  
-      My name is kazumarks (kazu for short) and I tinker with Pokémon, other games and Linux.
+      I am kaitou (formerly kazu/kazumarks) and I tinker with Pokémon, other games and Linux.
       I also like lurking in many internet forums about a variety of subjects like privacy, security, and urbanism.
-      Also I am not an amazing writer so some articles may look like slop.
+      I know some bit of Python and learned a small small amount of GBA Thumb (but not enough to make anything good).
    
   socialIcons:
     - name: mastodon
       url: "https://donphan.social/@kazumarks"
     - name: bluesky
-      url: "https://bsky.app/profile/clackerthien.bsky.social"
+      url: "https://bsky.app/profile/kaitouctr.bsky.social"
     - name: github
-      url: "https://github.com/kazumarks"
-    - name: youtube
-      url: "https://youtube.com/@kazumarks"
+      url: "https://github.com/kaitouctr"
 
   cover:
     hidden: true
