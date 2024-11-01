@@ -15,9 +15,9 @@ Below is the versions of Twilight Menu and nds-bootstrap for reference:
  - nds-bootstrap v2.1.0
 
 Below is the settings I have set in Twilight Menu:
-DS mode
-ARM9 CPU Speed: 67mhz (NTR)
-VRAM Mode: DS mode
-Card Read DMA: On
-DSi Splash Auto-skip: On
-TWLMenu++ Splash Screen: Hide
+ - DS mode
+ - ARM9 CPU Speed: 67mhz (NTR)
+ - VRAM Mode: DS mode
+ - Card Read DMA: On
+ - DSi Splash Auto-skip: On
+ - TWLMenu++ Splash Screen: Hide
