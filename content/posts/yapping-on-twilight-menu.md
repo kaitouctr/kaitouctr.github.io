@@ -1,6 +1,6 @@
 +++
 title = 'A Quick Bit of Information on Twilight Menu RNG...'
-date = 2024-11-02
+date = 2024-11-01T16:20:00+11:00
 draft = false
 +++
 
